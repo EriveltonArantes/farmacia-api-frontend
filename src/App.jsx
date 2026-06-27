@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://farmacia-api.onrender.com";
+const apiBaseUrl = "https://farmacia-api-g4zi.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
